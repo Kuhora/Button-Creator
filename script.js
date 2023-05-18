@@ -41,7 +41,6 @@ function handleChange(event) {
   handleStyle[name](value);
   showCss();
 }
-
 function showCss() {
   cssText.innerHTML =  '<span>' + btn.style.cssText.split ('; ').join(';</span><span>');
 }
